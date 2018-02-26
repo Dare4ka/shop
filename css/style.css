@@ -1,0 +1,185 @@
+body {
+	font-size: 15px;
+	color: #4e5a64;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.logo {
+	justify-content: center;
+}
+
+input[type="search"] {
+	width: 180px;
+	height: 25px;
+	font-size: 11px;
+	padding: 5px 10px;
+	border: 1px solid #4e5b65;
+	border-radius: 13px;
+}
+header form > button {
+	top: -5px;
+	right: 0;
+}
+
+.account,
+nav {
+	font-size: 12px;
+	font-family: 'Asap', sans-serif;
+}
+
+.carousel-inner {
+	background: #e2e7e3;
+}
+.pre-fall{
+	font-family: 'Segoe Print', sans-serif;
+	font-size: 20px;
+}
+h2 {
+	font-size: 40px;
+}
+.favorites {
+	font-size: 8vmax;
+	line-height: 79px;
+}
+.carousel-indicators li {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background-color: #95a7b2;
+}
+
+.carousel-indicators li.active {
+	background-color: #f58466;
+}
+
+.sale {
+	font-size: 14px;
+}
+
+.classic-container {
+	background: url(../img/64.png) no-repeat top right;
+}
+
+.new-style, 
+.jewelry {
+	background: url(../img/14976010664_940fde389d_z.jpg) no-repeat 50% 0%;
+	min-height: 208px;
+	background-size: cover;
+}
+
+.jewelry {
+	background-image: url(../img/Jewellery.jpg);
+}
+
+.new-style:hover {
+	background-image: url(../img/14976010664_940fde389d_z-hover.jpg);
+	text-shadow: 0 0 2px rgba(255, 255, 255, .75);
+}
+.jewelry:hover {
+	background-image: url(../img/Jewellery-hover.jpg);
+	text-shadow: 0 0 2px rgba(1, 1, 1, .75);
+}
+
+h3 {
+	font-size: 35px;
+	text-shadow: 0 0 2px rgba(1, 1, 1, .75);
+}
+
+.collection {
+	font-size: 24px;
+	color: #202d33;
+}
+
+.watch {
+	color: #202d33;
+}
+
+.some-product {
+	font-size: 18px;
+}
+
+.tags {
+	font-size: 24px;
+}
+
+.tags > p {
+	line-height: 48px;
+	color: #202d33;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.half-width input {
+    display: none;
+}
+
+input[type^="radio"] ~ label::before {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 8px;
+    vertical-align: middle;
+	background: url(../img/Shape.png) no-repeat center center;
+}
+
+
+input[type^="radio"]:checked + label::before {
+    background: url(../img/Shape-active.png) no-repeat center center;
+}
+
+input[type^="radio"]:checked + label {
+    color: #f58466;
+}
+
+.card > img:hover {
+	opacity: .7;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 25px;
+}
+.owl-carousel {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+h5 {
+	font-size: 17px;
+	line-height: 25px;
+}
+
+p .text-h {
+	color: #465a65;
+}
+.text {
+	font-size: 11px;
+	color: #95a7b2;
+}
+
+footer {
+	min-height: 340px;
+	background-color: #fef1ee;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+footer form {
+	background-color: none;
+	font-size: 12px;
+}
+
+footer .form-control,
+footer .btn {
+	font-size: 12px;
+	text-align: center;
+}
+
